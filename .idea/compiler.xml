@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-07-javaconfig" />
         <module name="spring-01-Ioc1" />
         <module name="spring-06-annotation" />
         <module name="spring-05-Autowire" />
