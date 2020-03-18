@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.kang.pojo.Address">
+        <property name="address" value="China"/>
+    </bean>
+
+    <bean id="student" class="com.kang.pojo.Student">
+<!--        普通注入使用value-->
+        <property name="name" value="康"/>
+
+<!--        Bean注入，ref-->
+        <property name="address" ref="address"/>
+
+<!--        数组注入-->
+        <property name="books">
+            <array>
+                <value>《红楼梦》</value>
+                <value>《石头记》</value>
+                <value>《水浒传》</value>
+                <value>《三国演义》</value>
+                <value>《西游记》</value>
+            </array>
+        </property>
+
+<!--        list-->
+        <property name="hobbys">
+            <list>
+                <value>唱</value>
+                <value>跳</value>
+                <value>Rap</value>
+            </list>
+        </property>
+
+<!--        Map，用的entry-->
+        <property name="card">
+            <map>
+                <entry key="身份证" value="123456"/>
+                <entry key="银行卡" value="234567"/>
+            </map>
+        </property>
+
+<!--        Set-->
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>COC</value>
+                <value>BOB</value>
+            </set>
+        </property>
+
+<!--        null不是空字符串value=""-->
+        <property name="wife">
+            <null></null>
+        </property>
+
+<!--        Properties-->
+        <property name="info">
+            <props>
+                <prop key="url">123456</prop>
+                <prop key="password">123456</prop>
+                <prop key="username">klr</prop>
+            </props>
+        </property>
+
+
+    </bean>
+
+</beans>
