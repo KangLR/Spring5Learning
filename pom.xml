@@ -13,6 +13,7 @@
         <module>spring-02-hellospring</module>
         <module>spring-03-ioc2</module>
         <module>spring-04-DI</module>
+        <module>spring-05-Autowire</module>
     </modules>
     <dependencies>
         <dependency>
@@ -25,6 +26,12 @@
             <artifactId>lombok</artifactId>
             <version>1.18.12</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

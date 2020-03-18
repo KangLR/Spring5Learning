@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="cat" class="com.kang.pojo.Cat"/>
+    <bean id="dog111" class="com.kang.pojo.Dog"/>
+<!--    <bean id="people" class="com.kang.pojo.People">-->
+<!--        <property name="name" value="kang"/>-->
+<!--        <property name="cat" ref="cat"/>-->
+<!--        <property name="dog" ref="dog"/>-->
+<!--    </bean>-->
+
+<!--    自动寻找cat/dog-->
+    <bean id="people" class="com.kang.pojo.People" autowire="byName">
+        <property name="name" value="kang"/>
+    </bean>
+</beans>

@@ -10,6 +10,7 @@
         <module name="spring-02-hellospring" />
         <module name="spring-01-Ioc1" />
         <module name="spring-04-DI" />
+        <module name="spring-05-Autowire" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
