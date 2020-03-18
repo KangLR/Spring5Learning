@@ -6,18 +6,14 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--注解的支持-->
     <context:annotation-config/>
 
     <bean id="cat" class="com.kang.pojo.Cat"/>
-    <bean id="dog111" class="com.kang.pojo.Dog"/>
-<!--    <bean id="people" class="com.kang.pojo.People">-->
-<!--        <property name="name" value="kang"/>-->
-<!--        <property name="cat" ref="cat"/>-->
-<!--        <property name="dog" ref="dog"/>-->
-<!--    </bean>-->
+    <bean id="dog" class="com.kang.pojo.Dog"/>
+    <bean id="dog22" class="com.kang.pojo.Dog"/>
 
-<!--    自动寻找cat/dog-->
-    <bean id="people" class="com.kang.pojo.People" autowire="byName">
-        <property name="name" value="kang"/>
-    </bean>
+    <bean id="people" class="com.kang.pojo.People"/>
+
 </beans>
