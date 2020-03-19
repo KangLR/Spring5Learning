@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b814bca-5080-4b7e-a37e-e80f449bca1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/spring-09-AOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/src/main/java/com/kang/diy/AnnotationPointCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/src/main/java/com/kang/diy/DiyPointCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/src/main/java/com/kang/log/AfterLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/src/main/java/com/kang/log/Log.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/src/main/java/com/kang/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/src/main/java/com/kang/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-09-AOP/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/mapper/UserMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/mapper/UserMapperImplTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -33,7 +36,30 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
@@ -70,6 +96,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -88,7 +115,7 @@
       <recent name="C:\IDEA\spring-study\spring-05-Autowire\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test1">
+  <component name="RunManager" selected="JUnit.MyTest.test">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kang.demo2.Client" />
       <module name="spring-08-proxy" />
@@ -110,9 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kang.demo1.Client" />
-      <module name="spring-08-proxy" />
+    <configuration name="MyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-10-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test" />
         <item itemvalue="JUnit.MyTest.test1" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +174,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584498677525</updated>
-      <workItem from="1584498683176" duration="47385000" />
+      <workItem from="1584498683176" duration="56436000" />
     </task>
     <servers />
   </component>
@@ -152,57 +182,65 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="170" key="#Project_Structure" timestamp="1584607192647">
+    <state x="690" y="170" key="#Project_Structure" timestamp="1584622522036">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="690" y="170" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1584607192647" />
+    <state x="690" y="170" key="#Project_Structure/0.0.1504.963@0.0.1504.963" timestamp="1584622522036" />
+    <state x="584" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584618148726">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="584" y="222" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1584618148726" />
     <state x="903" y="277" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584539903379">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="903" y="277" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1504.963@0.0.1504.963" timestamp="1584539903379" />
-    <state x="907" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1584610234686">
+    <state x="907" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1584624410414">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="907" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1584610234686" />
+    <state x="907" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1584624410414" />
     <state x="532" y="226" key="FileChooserDialogImpl" timestamp="1584505735485">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="532" y="226" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1584505735485" />
-    <state width="703" height="224" key="GridCell.Tab.0.bottom" timestamp="1584616438885">
+    <state width="703" height="314" key="GridCell.Tab.0.bottom" timestamp="1584625622822">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="703" height="224" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1584616438885" />
-    <state width="703" height="224" key="GridCell.Tab.0.center" timestamp="1584616438885">
+    <state width="703" height="314" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1584625622822" />
+    <state width="703" height="314" key="GridCell.Tab.0.center" timestamp="1584625622822">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="703" height="224" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1584616438885" />
-    <state width="703" height="224" key="GridCell.Tab.0.left" timestamp="1584616438884">
+    <state width="703" height="314" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1584625622822" />
+    <state width="703" height="314" key="GridCell.Tab.0.left" timestamp="1584625622821">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="703" height="224" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1584616438884" />
-    <state width="703" height="224" key="GridCell.Tab.0.right" timestamp="1584616438885">
+    <state width="703" height="314" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1584625622821" />
+    <state width="703" height="314" key="GridCell.Tab.0.right" timestamp="1584625622822">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="703" height="224" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1584616438885" />
+    <state width="703" height="314" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1584625622822" />
+    <state width="274" height="477" key="HiddenNamespacesPopup" timestamp="1584618076857">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="274" height="477" key="HiddenNamespacesPopup/0.0.1504.963@0.0.1504.963" timestamp="1584618076857" />
     <state x="257" y="77" key="SettingsEditor" timestamp="1584515156910">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="257" y="77" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1584515156910" />
-    <state x="252" y="372" key="new project wizard" timestamp="1584609287417">
+    <state x="252" y="372" key="new project wizard" timestamp="1584617311479">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="252" y="372" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1584609287417" />
+    <state x="252" y="372" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1584617311479" />
     <state x="603" y="229" key="run.anything.popup" timestamp="1584514750297">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="603" y="229" key="run.anything.popup/0.0.1504.963@0.0.1504.963" timestamp="1584514750297" />
-    <state x="693" y="272" width="672" height="678" key="search.everywhere.popup" timestamp="1584603837524">
+    <state x="693" y="271" width="672" height="678" key="search.everywhere.popup" timestamp="1584617494725">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="693" y="272" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1584603837524" />
-    <state x="433" y="174" key="spring file set editor" timestamp="1584615519607">
+    <state x="693" y="271" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1584617494725" />
+    <state x="433" y="174" key="spring file set editor" timestamp="1584624980015">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="433" y="174" key="spring file set editor/0.0.1504.963@0.0.1504.963" timestamp="1584615519607" />
+    <state x="433" y="174" key="spring file set editor/0.0.1504.963@0.0.1504.963" timestamp="1584624980015" />
   </component>
 </project>
