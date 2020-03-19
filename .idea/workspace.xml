@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b814bca-5080-4b7e-a37e-e80f449bca1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/mapper/UserMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/mapper/UserMapperImplTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/java/com/kang/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/main/resources/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-10-mybatis/src/test/java/MyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/spring-11-transaction.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kang/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kang/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kang/mapper/UserMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kang/mapper/UserMapperImplTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/java/com/kang/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/main/resources/spring-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-11-transaction/src/test/java/MyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -68,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -100,7 +98,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-08-proxy/src/main/java/com/kang/demo3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-11-transaction/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -108,21 +106,19 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.kang.mapper" />
+      <recent name="com.kang.pojo" />
       <recent name="com.kang.demo4" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IDEA\spring-study\spring-11-transaction\src\main\resources" />
+      <recent name="C:\IDEA\spring-study\spring-11-transaction\src\main\java\com\kang\mapper" />
       <recent name="C:\IDEA\spring-study\spring-08-proxy\src\main\java\com\kang\demo3" />
       <recent name="C:\IDEA\spring-study\spring-05-Autowire\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyTest.test">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kang.demo2.Client" />
-      <module name="spring-08-proxy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyTest.test (1)">
     <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kang.demo3.Client" />
       <module name="spring-08-proxy" />
@@ -133,6 +129,16 @@
     <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.kang.demo4.Client" />
       <module name="spring-08-proxy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-11-transaction" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MyTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyTest.test (1)" />
         <item itemvalue="JUnit.MyTest.test" />
         <item itemvalue="JUnit.MyTest.test1" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584498677525</updated>
-      <workItem from="1584498683176" duration="56436000" />
+      <workItem from="1584498683176" duration="62153000" />
     </task>
     <servers />
   </component>
@@ -194,30 +200,30 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="903" y="277" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1504.963@0.0.1504.963" timestamp="1584539903379" />
-    <state x="907" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1584624410414">
+    <state x="907" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1584629523183">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="907" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1584624410414" />
+    <state x="907" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1504.963@0.0.1504.963" timestamp="1584629523183" />
     <state x="532" y="226" key="FileChooserDialogImpl" timestamp="1584505735485">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="532" y="226" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1584505735485" />
-    <state width="703" height="314" key="GridCell.Tab.0.bottom" timestamp="1584625622822">
+    <state width="1461" height="139" key="GridCell.Tab.0.bottom" timestamp="1584631374841">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="703" height="314" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1584625622822" />
-    <state width="703" height="314" key="GridCell.Tab.0.center" timestamp="1584625622822">
+    <state width="1461" height="139" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1584631374841" />
+    <state width="1461" height="139" key="GridCell.Tab.0.center" timestamp="1584631374840">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="703" height="314" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1584625622822" />
-    <state width="703" height="314" key="GridCell.Tab.0.left" timestamp="1584625622821">
+    <state width="1461" height="139" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1584631374840" />
+    <state width="1461" height="139" key="GridCell.Tab.0.left" timestamp="1584631374840">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="703" height="314" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1584625622821" />
-    <state width="703" height="314" key="GridCell.Tab.0.right" timestamp="1584625622822">
+    <state width="1461" height="139" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1584631374840" />
+    <state width="1461" height="139" key="GridCell.Tab.0.right" timestamp="1584631374840">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="703" height="314" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1584625622822" />
+    <state width="1461" height="139" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1584631374840" />
     <state width="274" height="477" key="HiddenNamespacesPopup" timestamp="1584618076857">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -226,10 +232,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="257" y="77" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1584515156910" />
-    <state x="252" y="372" key="new project wizard" timestamp="1584617311479">
+    <state x="252" y="372" key="new project wizard" timestamp="1584626447941">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="252" y="372" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1584617311479" />
+    <state x="252" y="372" key="new project wizard/0.0.1504.963@0.0.1504.963" timestamp="1584626447941" />
     <state x="603" y="229" key="run.anything.popup" timestamp="1584514750297">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -238,9 +244,9 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="693" y="271" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1584617494725" />
-    <state x="433" y="174" key="spring file set editor" timestamp="1584624980015">
+    <state x="433" y="174" key="spring file set editor" timestamp="1584630589582">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="433" y="174" key="spring file set editor/0.0.1504.963@0.0.1504.963" timestamp="1584624980015" />
+    <state x="433" y="174" key="spring file set editor/0.0.1504.963@0.0.1504.963" timestamp="1584630589582" />
   </component>
 </project>

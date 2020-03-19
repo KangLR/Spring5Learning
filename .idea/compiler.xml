@@ -16,6 +16,7 @@
         <module name="spring-04-DI" />
         <module name="spring-09-AOP" />
         <module name="spring-02-hellospring" />
+        <module name="spring-11-transaction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />
