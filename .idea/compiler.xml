@@ -13,6 +13,7 @@
         <module name="spring-08-proxy" />
         <module name="spring-03-ioc2" />
         <module name="spring-04-DI" />
+        <module name="spring-09-AOP" />
         <module name="spring-02-hellospring" />
       </profile>
     </annotationProcessing>
